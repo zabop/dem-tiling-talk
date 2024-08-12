@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
-  <meta name="author" content="Pirmin Kalberer @implgeo">
-  <title>Farewell Web Mercator</title>
+  <meta name="author" content="Tobias Velvang">
+  <title>Large scale DEM tiling for QGIS workflows</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -38,12 +38,18 @@
     <div class="slides">
 
 <section id="title-slide">
-  <h1 class="title">Farewell Web Mercator</h1>
-  <p class="author">Pirmin Kalberer <span class="citation"
-data-cites="implgeo">@implgeo</span></p>
-  <p class="date">State of the Map Europe 2024 Łódź</p>
+  <h1 class="title">Large scale DEM tiling for QGIS workflows</h1>
+  <p class="author">Tobias Velvang</p>
+  <p class="date">QGIS UC 2024 Bratislava</p>
 </section>
 
+<section class="slide level2">
+
+<p>width: 1600 height: 900</p>
+</section>
+<section class="slide level2">
+
+</section>
 <section id="about-me" class="title-slide slide level1">
 <h1>About me</h1>
 <div class="fragment">
@@ -95,15 +101,14 @@ class="title-slide slide level1">
 <li>Conformal cylindrical map projection</li>
 <li>Good for navigation</li>
 </ul>
-<aside class="notes">
+<p>::: notes</p>
 <ul>
 <li>north everywhere “up” and south “down”, while preserving local
 directions and shapes</li>
 <li>1512 (Flanders) - 1594 (Duisburg) <a
 href="https://en.wikipedia.org/wiki/Gerardus_Mercator"
-class="uri">https://en.wikipedia.org/wiki/Gerardus_Mercator</a></li>
+class="uri">https://en.wikipedia.org/wiki/Gerardus_Mercator</a> :::</li>
 </ul>
-</aside>
 </section>
 <section id="web-mercator" class="slide level2">
 <h2>Web Mercator</h2>
@@ -206,8 +211,7 @@ areas.</p>
 <div class="fragment">
 <p>Limitations:</p>
 <ul>
-<li>Limited zooming<br />
-</li>
+<li>Limited zooming</li>
 <li>Static center meridian</li>
 <li>Tile caching</li>
 </ul>
@@ -461,13 +465,6 @@ class="uri">https://mapstodon.space/@implgeo</a></p>
         // devices. It is advisable to set this to a lower number than
         // viewDistance in order to save resources.
         mobileViewDistance: 2,
-
-        // The "normal" size of the presentation, aspect ratio will be preserved
-        // when the presentation is scaled to fit different resolutions. Can be
-        // specified using percentage units.
-        width: 1600,
-
-        height: 900,
 
         // reveal.js plugins
         plugins: [
