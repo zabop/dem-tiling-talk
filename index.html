@@ -86,7 +86,6 @@
 <h2>Naming</h2>
 <p>is less conventional than that of XYZ tiles</p>
 </section></section>
-<section>
 <section id="tiling" class="title-slide slide level1">
 <h1>Tiling</h1>
 <div class="fragment">
@@ -104,23 +103,36 @@
 <li>Other tilings exists, we use XYZ</li>
 </ul>
 </div>
+<div class="fragment">
+<p>Let’s dive into tiling.</p>
+</div>
 </section>
-<section id="overview" class="slide level2">
-<h2>Overview</h2>
-<ul>
-<li>Mercator projection cropped to ~85°N to 85°S -&gt; square, good for
-tiling</li>
-<li>Spherical and ellipsoidal mix of formulas</li>
-</ul>
-<aside class="notes">
-<p>The value 85.051129° is the latitude at which the full projected map
-becomes a square</p>
-</aside>
-</section></section>
-<section>
-<section id="alternatives" class="title-slide slide level1">
-<h1>Alternatives</h1>
 
+<section id="the-plan" class="title-slide slide level1">
+<h1>The plan</h1>
+<div class="fragment">
+<p>Area served: some US states</p>
+</div>
+<div class="fragment">
+<p>Data source: USGS</p>
+</div>
+<div class="fragment">
+<p>File processing on AWS Batch</p>
+</div>
+<div class="fragment">
+<p>Serve result to QGIS from s3</p>
+</div>
+</section>
+
+<section>
+<section id="usgs" class="title-slide slide level1">
+<h1>USGS</h1>
+<aside class="notes">
+<p>Overview of what is available:
+https://apps.nationalmap.gov/downloader/ GPKG for file -&gt; area
+mapping:
+https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Elevation/1m/FullExtentSpatialMetadata/</p>
+</aside>
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
