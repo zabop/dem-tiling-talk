@@ -31,7 +31,7 @@ bla appearing third
 
 ## GeoTIFFs, COGs, .ascs
 
-# GeoTIFFs - the downsides
+# GeoTIFFs in practice
 
 ## Huge
 
@@ -82,6 +82,30 @@ Serve result to QGIS from s3
 Overview of what is available: https://apps.nationalmap.gov/downloader/
 GPKG for file -> area mapping: https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Elevation/1m/FullExtentSpatialMetadata/
 :::
+
+# File processing overview
+
+## High zoom tiling
+
+::: notes
+Choose base zoom level, max zoom level.
+Create function which downloads those and only those source files which are within base zoom tile.
+Tile from basezoom to maxzoom.
+:::
+
+## Low zoom tiling
+
+## Optional: buffering
+
+# AWS Batch infrastructure overview
+
+## Job definitions
+
+## Job queues
+
+## Compute environments
+
+## Jobs
 
 ##
 
