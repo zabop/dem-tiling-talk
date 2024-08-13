@@ -75,8 +75,8 @@
 <h2>GeoTIFFs, COGs, .ascs</h2>
 </section></section>
 <section>
-<section id="geotiffs---the-downsides" class="title-slide slide level1">
-<h1>GeoTIFFs - the downsides</h1>
+<section id="geotiffs-in-practice" class="title-slide slide level1">
+<h1>GeoTIFFs in practice</h1>
 
 </section>
 <section id="huge" class="slide level2">
@@ -124,7 +124,6 @@
 </div>
 </section>
 
-<section>
 <section id="usgs" class="title-slide slide level1">
 <h1>USGS</h1>
 <aside class="notes">
@@ -133,6 +132,44 @@ https://apps.nationalmap.gov/downloader/ GPKG for file -&gt; area
 mapping:
 https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Elevation/1m/FullExtentSpatialMetadata/</p>
 </aside>
+</section>
+
+<section>
+<section id="file-processing-overview" class="title-slide slide level1">
+<h1>File processing overview</h1>
+
+</section>
+<section id="high-zoom-tiling" class="slide level2">
+<h2>High zoom tiling</h2>
+<aside class="notes">
+<p>Choose base zoom level, max zoom level. Create function which
+downloads those and only those source files which are within base zoom
+tile. Tile from basezoom to maxzoom.</p>
+</aside>
+</section>
+<section id="low-zoom-tiling" class="slide level2">
+<h2>Low zoom tiling</h2>
+</section>
+<section id="optional-buffering" class="slide level2">
+<h2>Optional: buffering</h2>
+</section></section>
+<section>
+<section id="aws-batch-infrastructure-overview"
+class="title-slide slide level1">
+<h1>AWS Batch infrastructure overview</h1>
+
+</section>
+<section id="job-definitions" class="slide level2">
+<h2>Job definitions</h2>
+</section>
+<section id="job-queues" class="slide level2">
+<h2>Job queues</h2>
+</section>
+<section id="compute-environments" class="slide level2">
+<h2>Compute environments</h2>
+</section>
+<section id="jobs" class="slide level2">
+<h2>Jobs</h2>
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
