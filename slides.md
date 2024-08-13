@@ -53,17 +53,35 @@ is less conventional than that of XYZ tiles
 
 * Other tilings exists, we use XYZ
 
-## Overview
+. . .
 
-* Mercator projection cropped to ~85°N to 85°S
-  -> square, good for tiling
-* Spherical and ellipsoidal mix of formulas
+Let's dive into tiling.
+
+
+# The plan
+
+. . .
+
+Area served: some US states
+
+. . . 
+
+Data source: USGS
+
+. . .
+
+File processing on AWS Batch
+
+. . .
+
+Serve result to QGIS from s3
+
+# USGS
 
 ::: notes
-The value 85.051129° is the latitude at which the full projected map becomes a square
+Overview of what is available: https://apps.nationalmap.gov/downloader/
+GPKG for file -> area mapping: https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Elevation/1m/FullExtentSpatialMetadata/
 :::
-
-# Alternatives
 
 ##
 
