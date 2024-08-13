@@ -23,6 +23,14 @@ bla appearing third
 * and some 
 * bullet points
 
+# Elevation data
+
+## DEM
+
+## DSM
+
+## GeoTIFFs, COGs, .ascs
+
 # GeoTIFFs - the downsides
 
 ## Huge
@@ -45,7 +53,7 @@ is less conventional than that of XYZ tiles
 
 * Other tilings exists, we use XYZ
 
-## Web Mercator
+## Overview
 
 * Mercator projection cropped to ~85°N to 85°S
   -> square, good for tiling
