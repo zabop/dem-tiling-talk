@@ -33,8 +33,16 @@ is less conventional than that of XYZ tiles
 
 # Tiling
 
+. . .
+
 * Built in QGIS support (XYZ layer)
+
+. . .
+
 * XYZ tiling: based on EPSG:3857
+
+. . .
+
 * Other tilings exists, we use XYZ
 
 ## Web Mercator
