@@ -31,19 +31,11 @@ bla appearing third
 
 is less conventional than that of XYZ tiles
 
-# Mercator projection
+# Tiling
 
-![](images/mercator-portrait.jpg)
-
-* Gerardus Mercator, 1596
-* Conformal cylindrical map projection
-* Good for navigation
-
-::: notes
-* north everywhere "up" and south "down", while preserving local directions and shapes
-* 1512 (Flanders) - 1594 (Duisburg)
-<https://en.wikipedia.org/wiki/Gerardus_Mercator>
-:::
+* Built in QGIS support (XYZ layer)
+* XYZ tiling: based on EPSG:3857
+* Other tilings exists, we use XYZ
 
 ## Web Mercator
 
