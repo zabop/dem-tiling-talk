@@ -1,5 +1,5 @@
 % Large scale DEM tiling for QGIS workflows
-% Tobias Velvang
+% Name Name
 % QGIS UC 2024 Bratislava
 ---
 width: 1600
@@ -10,18 +10,18 @@ height: 900
 
 . . .
 
-Lazy mapper (55 changesets in 15 years)
+bla appearing first
 
 . . .
 
-FOSSGIS e.V. board (German OSM chapter)
+bla appearing second
 
 . . .
 
-GIS developer
+bla appearing third
 
-* Sourcepole, Switzerland
-* t-rex tile server -> BBOX
+* and some 
+* bullet points
 
 # Web Mercator - the bad parts
 
