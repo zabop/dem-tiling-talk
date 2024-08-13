@@ -23,30 +23,13 @@ bla appearing third
 * and some 
 * bullet points
 
-# Web Mercator - the bad parts
+# GeoTIFFs - the downsides
 
-## Size distortion
+## Huge
 
-![](images/mercator-size-distortion-animated.gif)
+## Naming
 
-Africa actually has 14 times as much area as Greenland
-
-::: notes
-Image credit: https://en.wikipedia.org/wiki/Mercator_projection
-:::
-
-## Thematic mapping
-
-![](images/webmercator-osm-membership.png)
-
-## In the wild
-
-![](images/webmercator-relief.jpg)
-
-::: notes
-On T-shirts, posters and even in school rooms
-:::
-
+is less conventional than that of XYZ tiles
 
 # Mercator projection
 
