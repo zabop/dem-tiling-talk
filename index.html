@@ -43,13 +43,6 @@
   <p class="date">QGIS UC 2024 Bratislava</p>
 </section>
 
-<section class="slide level2">
-
-<p>width: 1600 height: 900</p>
-</section>
-<section class="slide level2">
-
-</section>
 <section id="about-me" class="title-slide slide level1">
 <h1>About me</h1>
 <div class="fragment">
@@ -101,14 +94,15 @@ class="title-slide slide level1">
 <li>Conformal cylindrical map projection</li>
 <li>Good for navigation</li>
 </ul>
-<p>::: notes</p>
+<aside class="notes">
 <ul>
 <li>north everywhere “up” and south “down”, while preserving local
 directions and shapes</li>
 <li>1512 (Flanders) - 1594 (Duisburg) <a
 href="https://en.wikipedia.org/wiki/Gerardus_Mercator"
-class="uri">https://en.wikipedia.org/wiki/Gerardus_Mercator</a> :::</li>
+class="uri">https://en.wikipedia.org/wiki/Gerardus_Mercator</a></li>
 </ul>
+</aside>
 </section>
 <section id="web-mercator" class="slide level2">
 <h2>Web Mercator</h2>
@@ -211,7 +205,8 @@ areas.</p>
 <div class="fragment">
 <p>Limitations:</p>
 <ul>
-<li>Limited zooming</li>
+<li>Limited zooming<br />
+</li>
 <li>Static center meridian</li>
 <li>Tile caching</li>
 </ul>
@@ -465,6 +460,13 @@ class="uri">https://mapstodon.space/@implgeo</a></p>
         // devices. It is advisable to set this to a lower number than
         // viewDistance in order to save resources.
         mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1600,
+
+        height: 900,
 
         // reveal.js plugins
         plugins: [
