@@ -1,12 +1,9 @@
 % Large scale DEM tiling for QGIS workflows
 % Tobias Velvang
 % QGIS UC 2024 Bratislava
-
 ---
-
 width: 1600
 height: 900
-
 ---
 
 # About me
@@ -23,8 +20,8 @@ FOSSGIS e.V. board (German OSM chapter)
 
 GIS developer
 
-- Sourcepole, Switzerland
-- t-rex tile server -> BBOX
+* Sourcepole, Switzerland
+* t-rex tile server -> BBOX
 
 # Web Mercator - the bad parts
 
@@ -50,26 +47,26 @@ Image credit: https://en.wikipedia.org/wiki/Mercator_projection
 On T-shirts, posters and even in school rooms
 :::
 
+
 # Mercator projection
 
 ![](images/mercator-portrait.jpg)
 
-- Gerardus Mercator, 1596
-- Conformal cylindrical map projection
-- Good for navigation
+* Gerardus Mercator, 1596
+* Conformal cylindrical map projection
+* Good for navigation
 
 ::: notes
-
-- north everywhere "up" and south "down", while preserving local directions and shapes
-- 1512 (Flanders) - 1594 (Duisburg)
-  <https://en.wikipedia.org/wiki/Gerardus_Mercator>
-  :::
+* north everywhere "up" and south "down", while preserving local directions and shapes
+* 1512 (Flanders) - 1594 (Duisburg)
+<https://en.wikipedia.org/wiki/Gerardus_Mercator>
+:::
 
 ## Web Mercator
 
-- Mercator projection cropped to ~85°N to 85°S
+* Mercator projection cropped to ~85°N to 85°S
   -> square, good for tiling
-- Spherical and ellipsoidal mix of formulas
+* Spherical and ellipsoidal mix of formulas
 
 ::: notes
 The value 85.051129° is the latitude at which the full projected map becomes a square
@@ -149,9 +146,9 @@ Florence Meridian 11E
 
 ## Support
 
-- PROJ -> GDAL, QGIS, R
-- D3, Plotly
-- proj4js
+* PROJ -> GDAL, QGIS, R
+* D3, Plotly
+* proj4js
 
 # Web mapping
 
@@ -162,9 +159,9 @@ by cartographers
 
 Limitations:
 
-- Limited zooming
-- Static center meridian
-- Tile caching
+* Limited zooming  
+* Static center meridian
+* Tile caching
 
 ## Tile grid
 
@@ -172,7 +169,7 @@ Limitations:
 
 ::: notes
 A quadratic grid for Equal Earth centered on Greenwich is similar to a Web Mercator grid.
-Instead of Mercator grid corners at +/-20'037'508 the grid corners of Equal Earth
+Instead of Mercator grid corners at +/-20'037'508 the grid corners of Equal Earth 
 Greenwich are at +/-17'243'959
 :::
 
@@ -181,7 +178,7 @@ Greenwich are at +/-17'243'959
 ![](images/grid-scaled.jpg)
 
 ::: notes
-scale factor of 1.162. Conversions between geographic WGS84 coordinates and the map coordinate reference
+scale factor of 1.162. Conversions between geographic WGS84 coordinates and the map coordinate reference 
 system give wrong results without adapted calculations.
 But maps can be displayed without any coordinate projection calculations.
 :::
@@ -233,7 +230,7 @@ MapLibre with Shortbread PMTiles.
 
 ![](images/proj-transition.gif)
 
-<https://kvaleya.gitlab.io/maplibre/globe/globedemo.html>
+  <https://kvaleya.gitlab.io/maplibre/globe/globedemo.html>
 
 ## Dynamic center meridian
 
