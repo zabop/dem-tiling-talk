@@ -83,6 +83,10 @@ Overview of what is available: https://apps.nationalmap.gov/downloader/
 GPKG for file -> area mapping: https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Elevation/1m/FullExtentSpatialMetadata/
 :::
 
+## 
+![](images/usgs_screenshot0.png)
+##
+![](images/coverage.png)
 # File processing overview
 
 ## High zoom tiling
@@ -106,3 +110,5 @@ Tile from basezoom to maxzoom.
 ## Compute environments
 
 ## Jobs
+
+# 
