@@ -85,8 +85,10 @@ GPKG for file -> area mapping: https://prd-tnm.s3.amazonaws.com/index.html?prefi
 
 ## 
 ![](images/usgs_screenshot0.png)
+
 ##
 ![](images/coverage.png)
+
 # File processing overview
 
 ## High zoom tiling
