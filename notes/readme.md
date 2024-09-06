@@ -56,7 +56,7 @@ Some aren't:
 
 We want to create images files from elevation covering the area of specific XYZ tiles. Such as:
 
-![](squareishTiffWIthTileBorders.png)
+![](squareishTiffWithTileBorders.png)
 ![](oddlyShapedTiffWithTileBorders0.png)
 ![](TiffAndTilesNotIn3857.png)
 
