@@ -27,3 +27,15 @@ QGIS version:
 ![](OsloSlope0.png)
 ![](OsloSlope1.png)
 ![](OsloSlope2.png)
+
+Potential screenshot: 3D in QGIS?
+
+# Processing description and screenshots
+
+Start with: FESM_1m.gpkg.
+https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Elevation/1m/FullExtentSpatialMetadata/
+
+US is divided up to many areas, we are given the URL for each area:
+
+![](FESM_1m.png)
+![](FESM_1m_arrow.png)
