@@ -67,3 +67,8 @@ Tile boundary visualisation is available openly: https://tilevis.fly.dev/XYZ/{z}
 File which maps polygons to files contained within the polygons:
 
 ![](fileMap.png)
+
+# Coverage maps
+
+![](coveragemap.png)
+![](coveragemapHawaii.png)
