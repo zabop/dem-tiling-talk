@@ -63,3 +63,7 @@ Note that there are TIFF sides parallel with canvas sides:
 It's because project CRS is now set to the CRS of the TIFF. In exchange, webmercator tile grid is tilted.
 
 Tile boundary visualisation is available openly: https://tilevis.fly.dev/XYZ/{z}/{x}/{y}. Visualisation of borders of single tiles: [merqantile plugin](https://plugins.qgis.org/plugins/merqantile/).
+
+File which maps polygons to files contained within the polygons:
+
+![](fileMap.png)
