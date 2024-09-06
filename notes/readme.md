@@ -58,6 +58,8 @@ We want to create images files from elevation covering the area of specific XYZ 
 
 ![](squareishTiffWithTileBorders.png)
 ![](oddlyShapedTiffWithTileBorders0.png)
+Note that there are TIFF sides parallel with canvas sides:
 ![](TiffAndTilesNotIn3857.png)
+It's because project CRS is now set to the CRS of the TIFF. In exchange, webmercator tile grid is tilted.
 
 Tile boundary visualisation is available openly: https://tilevis.fly.dev/XYZ/{z}/{x}/{y}.
